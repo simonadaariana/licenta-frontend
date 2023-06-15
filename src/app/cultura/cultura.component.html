@@ -1,0 +1,152 @@
+<div class="cultura-container">
+  <div class="cultura-cultura">
+    <div class="progress-bar">
+      <mat-progress-bar mode="buffer" value="50"></mat-progress-bar>
+    </div>
+    <span class="cultura-text1">
+      <span>CULTURĂ</span>
+    </span>
+
+    <span class="cultura-text2">
+      <mat-card>
+        <span>
+          Este accentuată în cadrul companiei o cultură inovativă și experimentală? <br><br>
+        </span>
+        <div class="radio-button">
+          <form [formGroup]="group1">
+            <label>
+              <input type="radio" value="1" formControlName="selectedOption">
+              1
+            </label>
+            <label>
+              <input type="radio" value="2" formControlName="selectedOption">
+              2
+            </label>
+            <label>
+              <input type="radio" value="3" formControlName="selectedOption">
+              3
+            </label>
+            <label>
+              <input type="radio" value="4" formControlName="selectedOption">
+              4
+            </label>
+            <label>
+              <input type="radio" value="5" formControlName="selectedOption">
+              5
+            </label>
+          </form>
+        </div>
+      </mat-card>
+    </span>
+
+
+    <span class="cultura-text3">
+      <mat-card>
+        <span>
+          Valorifică organizația dumneavoastră colaborarea între departamente și
+          împărtășirea de cunoștințe? <br><br>
+        </span>
+        <div class="radio-button">
+          <form [formGroup]="group2">
+            <label>
+              <input type="radio" value="1" formControlName="selectedOption">
+              1
+            </label>
+            <label>
+              <input type="radio" value="2" formControlName="selectedOption">
+              2
+            </label>
+            <label>
+              <input type="radio" value="3" formControlName="selectedOption">
+              3
+            </label>
+            <label>
+              <input type="radio" value="4" formControlName="selectedOption">
+              4
+            </label>
+            <label>
+              <input type="radio" value="5" formControlName="selectedOption">
+              5
+            </label>
+          </form>
+        </div>
+      </mat-card>
+    </span>
+
+    <span class="cultura-text4">
+      <mat-card>
+        <span>
+          Este compania orientată în jurul clientului în toate inițiativele sale
+          digitale? <br><br>
+        </span>
+        <div class="radio-button">
+          <form [formGroup]="group3">
+            <label>
+              <input type="radio" value="1" formControlName="selectedOption">
+              1
+            </label>
+            <label>
+              <input type="radio" value="2" formControlName="selectedOption">
+              2
+            </label>
+            <label>
+              <input type="radio" value="3" formControlName="selectedOption">
+              3
+            </label>
+            <label>
+              <input type="radio" value="4" formControlName="selectedOption">
+              4
+            </label>
+            <label>
+              <input type="radio" value="5" formControlName="selectedOption">
+              5
+            </label>
+          </form>
+        </div>
+      </mat-card>
+    </span>
+
+    <div class="cultura-group1">
+
+      <span class="cultura-text5">
+        <mat-card>
+          <span>
+            Există o cultură în cadrul companiei care valorifică luarea
+            deciziilor bazată pe date? <br><br>
+          </span>
+          <div class="radio-button">
+            <form [formGroup]="group4">
+              <label>
+                <input type="radio" value="1" formControlName="selectedOption">
+                1
+              </label>
+              <label>
+                <input type="radio" value="2" formControlName="selectedOption">
+                2
+              </label>
+              <label>
+                <input type="radio" value="3" formControlName="selectedOption">
+                3
+              </label>
+              <label>
+                <input type="radio" value="4" formControlName="selectedOption">
+                4
+              </label>
+              <label>
+                <input type="radio" value="5" formControlName="selectedOption">
+                5
+              </label>
+            </form>
+          </div>
+        </mat-card>
+      </span>
+
+    </div>
+
+    <span class="cultura-text-button">
+      <button mat-raised-button (click)="onNextPage()">
+                <p>SECȚIUNEA URMĂTOARE</p>
+      </button>
+    </span>
+  </div>
+</div>

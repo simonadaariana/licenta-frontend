@@ -1,0 +1,152 @@
+:host {
+  display: contents;
+}
+.grafic-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.grafic-grafic {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2300px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(31, 72, 126, 1);
+}
+.grafic-text1 {
+  top: 60px;
+  left: 120px;
+  color: rgba(169, 201, 240, 1);
+  width: 540px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grafic-text2 {
+  top: 180px;
+  left: 120px;
+  color: rgba(0, 0, 0, 1);
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chart-container {
+  width: 450px;
+  height: 300px;
+}
+.chart-organizare{
+  position: relative;
+  top: 2px;
+}
+.chart-tehnologie{
+  left: 750px;
+  top: 0px;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+}
+.chart-strategie{
+  top: 35px;
+  position: relative;
+}
+.chart-operatiuni{
+  left: 750px;
+  top: 400px;
+  position: absolute;
+  width: 500px;
+  height: 350px;
+}
+.chart-cultura{
+  top: 70px;
+  position: relative;
+}
+.chart-abilitati{
+  left: 750px;
+  top: 800px;
+  position: absolute;
+  width: 500px;
+  height: 350px;
+}
+.chart-experienta-clientilor{
+  top: 105px;
+  position: relative;
+}
+.chart-datele-si-analiza-lor{
+  left: 750px;
+  top: 1200px;
+  position: absolute;
+  width: 500px;
+  height: 350px;
+}
+.chart-inovatie{
+  top: 140px;
+  position: relative;
+}
+.chart-ecosistem{
+  left: 750px;
+  top: 1600px;
+  position: absolute;
+  width: 500px;
+  height: 350px;
+}
+.radar-chart{
+  position: absolute;
+  top: 2000px;
+  left: 200px;
+  width: 800px;
+  height: 800px;
+}
+
+.apexcharts-canvas {
+
+  width: 500px;
+}
+
+.apexcharts-title-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.rezultat-text-button {
+  top: 2200px;
+  left: 1100px;
+  color: rgba(169, 201, 240, 1);
+  width: 320px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mat-focus-indicator {
+  background-color: rgba(169, 201, 240, 1);
+}

@@ -1,0 +1,55 @@
+<div class="rezultat-container">
+  <div class="rezultat-rezultat">
+    <span class="rezultat-text1">
+      <span>
+        REZULTAT FINAL
+      </span>
+    </span>
+<span class="mat-focus-indicator">
+    <span class = "rezultat-text2">
+      <mat-card>
+          <p>În urma evaluării, compania dumneavoastră a obținut {{ consoleValueRezultat }} puncte din maximul de 200 de puncte. Pentru a înțelege mai bine rezultatul, următoarele diagrame vă pot fi de folos.</p>
+      </mat-card>
+    </span>
+</span>
+    <span class="rezultat-text3">
+      <mat-card>
+        <ul>Media pentru fiecare criteriu (rezultatul minim este 1, iar rezultatul maxim este 5):
+          <li>ORGANIZARE: {{consoleValueOrganizare}}</li>
+          <li>TEHNOLOGIE: {{consoleValueTehnologie}}</li>
+          <li>STRATEGIE: {{consoleValueStrategie}}</li>
+          <li>OPERAȚIUNI: {{consoleValueOperatiuni}}</li>
+          <li>CULTURĂ: {{consoleValueCultura}}</li>
+          <li>ABILITĂȚI: {{consoleValueAbilitati}}</li>
+          <li>EXPERIENȚA CLIENȚILOR: {{consoleValueExperientaClientilor}}</li>
+          <li>DATELE ȘI ANALIZA LOR: {{consoleValueDateleSiAnalizaLor}}</li>
+          <li>INOVAȚIE: {{consoleValueInovatie}}</li>
+          <li>ECOSISTEM: {{consoleValueEcosistem}}</li>
+        </ul>
+      </mat-card>
+    </span>
+
+    <span class="rezultat-text-button">
+      <button mat-raised-button (click)="onNextPage()">
+        <p>GRAFICE</p>
+      </button>
+    </span>
+
+  </div>
+</div>
+
+<div id="chart">
+<span class="grafic-text2">
+      <div class="chart-container">
+        <div class="apexcharts-canvas">
+          <span class="radar-chart">
+            <mat-card>
+              <span>REZULTATE GENERALE</span>
+                <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [labels]="chartOptions.labels"
+                           [plotOptions]="chartOptions.plotOptions"></apx-chart>
+            </mat-card>
+          </span>
+        </div>
+      </div>
+    </span>
+</div>

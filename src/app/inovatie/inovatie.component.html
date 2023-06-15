@@ -1,0 +1,153 @@
+<div class="inovatie-container">
+    <div class="inovatie-inovatie">
+        <div class="progress-bar">
+            <mat-progress-bar mode="buffer" value="90"></mat-progress-bar>
+        </div>
+        <span class="inovatie-text1">
+            <span>
+                INOVAȚIE
+            </span>
+        </span>
+
+      <span class="inovatie-text2">
+            <mat-card>
+                <span>
+                    Accentuează compania dumneavoastră importanța inovației și crearea de
+                    noi produse? <br><br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group1">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+            </mat-card>
+        </span>
+
+      <span class="inovatie-text3">
+            <mat-card>
+                <span>
+                    Există sisteme care să încurajeze și să suporte noi idei pentru
+                    explorarea și crearea unor noi prototipuri? <br><br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group2">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+            </mat-card>
+        </span>
+
+      <span class="inovatie-text4">
+            <mat-card>
+                <span>
+                    Există un buget și resurse pentru inițiative inovatoare? <br><br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group3">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+            </mat-card>
+        </span>
+
+        <div class="inovatie-group1">
+
+            <span class="inovatie-text5">
+                <mat-card>
+                    <span>
+                        Există parteneriate sau colaborări cu alte entități pentru a adopta
+                        inovația? <br><br>
+                    </span>
+                    <div class="radio-button">
+                        <form [formGroup]="group4">
+                            <label>
+                                <input type="radio" value="1" formControlName="selectedOption">
+                                1
+                            </label>
+                            <label>
+                                <input type="radio" value="2" formControlName="selectedOption">
+                                2
+                            </label>
+                            <label>
+                                <input type="radio" value="3" formControlName="selectedOption">
+                                3
+                            </label>
+                            <label>
+                                <input type="radio" value="4" formControlName="selectedOption">
+                                4
+                            </label>
+                            <label>
+                                <input type="radio" value="5" formControlName="selectedOption">
+                                5
+                            </label>
+                        </form>
+                    </div>
+                </mat-card>
+            </span>
+
+        </div>
+
+        <span class="inovatie-text-button">
+            <button mat-raised-button (click)="onNextPage()">
+                <p>SECȚIUNEA URMĂTOARE</p>
+            </button>
+        </span>
+    </div>
+</div>

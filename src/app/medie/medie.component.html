@@ -1,0 +1,36 @@
+<div class="medie-container">
+
+<div class="medie-medie">
+    <span class="medie-text1">
+      <span>
+        REZULTATUL COMPANIEI
+      </span>
+    </span>
+    <span class="mat-focus-indicator">
+
+    <span class = "medie-text2">
+      <mat-card>
+        <p>În urma completării chestionarului de către mai mulți angajați ai companiei, poate fi observată media răspunsurilor per categorie în următorul grafic.</p>
+      </mat-card>
+    </span>
+    </span>
+    <span class="chart-medie">
+<mat-card>
+<div id="chart" *ngIf="chartOptions !== undefined">
+  <div
+    *ngIf="chartOptions.series !== undefined && chartOptions.chart !==undefined && chartOptions.plotOptions !== undefined && chartOptions.labels !== undefined && chartOptions.legend !== undefined && chartOptions.colors !== undefined && chartOptions.responsive !== undefined">
+    <apx-chart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [plotOptions]="chartOptions.plotOptions"
+      [labels]="chartOptions.labels"
+      [legend]="chartOptions.legend"
+      [colors]="chartOptions.colors"
+      [responsive]="chartOptions.responsive"
+    ></apx-chart>
+  </div>
+</div>
+</mat-card>
+    </span>
+  </div>
+</div>

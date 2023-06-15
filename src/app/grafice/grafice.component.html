@@ -1,0 +1,117 @@
+<div class="grafic-container">
+  <div class="grafic-grafic">
+    <span class="grafic-text1">
+      <span>
+        GRAFICE
+      </span>
+    </span>
+    <span class="grafic-text2">
+<div class="chart-container">
+  <div class="apexcharts-canvas">
+
+    <span class="chart-organizare">
+    <mat-card>
+      <span>ORGANIZARE</span>
+      <div *ngIf="organizare.series !== undefined && organizare.chart !==undefined && organizare.yaxis !== undefined">
+        <apx-chart [series]="organizare.series" [chart]="organizare.chart" [yaxis]="organizare.yaxis"></apx-chart>
+      </div>
+    </mat-card>
+</span>
+<span class="chart-tehnologie">
+    <mat-card>
+
+        <span>TEHNOLOGIE</span>
+    <div *ngIf="tehnologie.series !== undefined && tehnologie.chart !==undefined">
+    <apx-chart [series]="tehnologie.series" [chart]="tehnologie.chart"></apx-chart>
+    </div>
+
+    </mat-card>
+</span>
+
+<span class="chart-strategie">
+    <mat-card>
+      <span>STRATEGIE</span>
+      <div *ngIf="strategie.series !== undefined && strategie.chart !==undefined">
+        <apx-chart [series]="strategie.series" [chart]="strategie.chart"></apx-chart>
+      </div>
+    </mat-card>
+</span>
+
+    <span class="chart-operatiuni">
+    <mat-card>
+      <span>OPERAȚIUNI</span>
+      <div *ngIf="operatiuni.series !== undefined && operatiuni.chart !==undefined">
+        <apx-chart [series]="operatiuni.series" [chart]="operatiuni.chart"></apx-chart>
+      </div>
+    </mat-card>
+    </span>
+
+    <span class="chart-cultura">
+    <mat-card>
+      <span>CULTURĂ</span>
+      <div *ngIf="cultura.series !== undefined && cultura.chart !==undefined">
+        <apx-chart [series]="cultura.series" [chart]="cultura.chart"></apx-chart>
+      </div>
+    </mat-card>
+    </span>
+
+    <span class="chart-abilitati">
+    <mat-card>
+      <span>ABILITĂȚI</span>
+      <div *ngIf="abilitati.series !== undefined && abilitati.chart !==undefined">
+        <apx-chart [series]="abilitati.series" [chart]="abilitati.chart"></apx-chart>
+      </div>
+    </mat-card>
+    </span>
+
+    <span class="chart-experienta-clientilor">
+    <mat-card>
+      <span>EXPERIENȚA CLIENȚILOR</span>
+      <div *ngIf="experienta_clientilor.series !== undefined && experienta_clientilor.chart !==undefined">
+        <apx-chart [series]="experienta_clientilor.series" [chart]="experienta_clientilor.chart"></apx-chart>
+      </div>
+    </mat-card>
+    </span>
+
+    <span class="chart-datele-si-analiza-lor">
+    <mat-card>
+      <span>DATELE ȘI ANALIZA LOR</span>
+      <div *ngIf="datele_si_analiza_lor.series !== undefined && datele_si_analiza_lor.chart !==undefined">
+        <apx-chart [series]="datele_si_analiza_lor.series" [chart]="datele_si_analiza_lor.chart"></apx-chart>
+      </div>
+    </mat-card>
+    </span>
+
+    <span class="chart-inovatie">
+    <mat-card>
+      <span>INOVAȚIE</span>
+      <div *ngIf="inovatie.series !== undefined && inovatie.chart !==undefined">
+        <apx-chart [series]="inovatie.series" [chart]="inovatie.chart"></apx-chart>
+      </div>
+    </mat-card>
+    </span>
+
+    <span class="chart-ecosistem">
+    <mat-card>
+      <span>ECOSISTEM</span>
+      <div *ngIf="ecosistem.series !== undefined && ecosistem.chart !==undefined">
+        <apx-chart [series]="ecosistem.series" [chart]="ecosistem.chart"></apx-chart>
+      </div>
+    </mat-card>
+      </span>
+
+
+
+  </div>
+</div>
+    </span>
+    <span class="mat-focus-indicator">
+
+    <span class="rezultat-text-button">
+      <button mat-raised-button (click)="onNextPage()">
+        <p>MEDIA COMPANIEI</p>
+      </button>
+    </span>
+    </span>
+  </div>
+</div>

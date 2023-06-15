@@ -1,0 +1,122 @@
+:host {
+  display: contents;
+}
+.rezultat-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.rezultat-rezultat {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1450px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(31, 72, 126, 1);
+}
+.rezultat-text1 {
+  top: 60px;
+  left: 120px;
+  color: rgba(169, 201, 240, 1);
+  width: 540px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.rezultat-text2 {
+  top: 180px;
+  left: 120px;
+  color: rgba(0, 0, 0, 1);
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.rezultat-text3{
+  top: 300px;
+  left: 120px;
+  color: rgba(0, 0, 0, 1);
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.rezultat-text-button {
+  top: 1300px;
+  left: 1000px;
+  color: rgba(169, 201, 240, 1);
+  width: 320px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.mat-focus-indicator {
+  background-color: rgba(169, 201, 240, 1);
+}
+
+.card{
+  background-color: white;
+}
+
+.grafic-text2 {
+  top: 680px;
+  left: 275px;
+  color: rgba(0, 0, 0, 1);
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chart-container {
+  width: 600px;
+  height: 300px;
+}
+
+.apexcharts-canvas {
+
+  width: 800px;
+}
+

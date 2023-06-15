@@ -1,0 +1,147 @@
+<div class="strategie-container">
+    <div class="strategie-strategie">
+        <div class = "progress-bar">
+            <mat-progress-bar mode="buffer" value="30"></mat-progress-bar>
+        </div>
+        <span class="strategie-text1"><span>STRATEGIE</span></span>
+      <span class="strategie-text2">
+            <mat-card>
+            <span>
+                Are compania dumneavoastră o strategie digitală și viziune bine
+                definite? <br><br>
+            </span>
+            <div class="radio-button">
+                <form [formGroup]="group1">
+                    <label>
+                        <input type="radio" value="1" formControlName="selectedOption">
+                        1
+                    </label>
+                    <label>
+                        <input type="radio" value="2" formControlName="selectedOption">
+                        2
+                    </label>
+                    <label>
+                        <input type="radio" value="3" formControlName="selectedOption">
+                        3
+                    </label>
+                    <label>
+                        <input type="radio" value="4" formControlName="selectedOption">
+                        4
+                    </label>
+                    <label>
+                        <input type="radio" value="5" formControlName="selectedOption">
+                        5
+                    </label>
+                </form>
+            </div>
+            </mat-card>
+        </span>
+
+      <span class="strategie-text3">
+            <mat-card>
+            <span>
+                Este strategia digitală a companiei conectată cu idealurile de
+                ansamblu? <br><br>
+            </span>
+            <div class="radio-button">
+                <form [formGroup]="group2">
+                    <label>
+                        <input type="radio" value="1" formControlName="selectedOption">
+                        1
+                    </label>
+                    <label>
+                        <input type="radio" value="2" formControlName="selectedOption">
+                        2
+                    </label>
+                    <label>
+                        <input type="radio" value="3" formControlName="selectedOption">
+                        3
+                    </label>
+                    <label>
+                        <input type="radio" value="4" formControlName="selectedOption">
+                        4
+                    </label>
+                    <label>
+                        <input type="radio" value="5" formControlName="selectedOption">
+                        5
+                    </label>
+                </form>
+            </div>
+            </mat-card>
+        </span>
+
+      <span class="strategie-text4">
+            <mat-card>
+            <span>
+                A fost strategia digitală transmisă adecvat în companie? <br><br>
+            </span>
+            <div class="radio-button">
+                <form [formGroup]="group3">
+                    <label>
+                        <input type="radio" value="1" formControlName="selectedOption">
+                        1
+                    </label>
+                    <label>
+                        <input type="radio" value="2" formControlName="selectedOption">
+                        2
+                    </label>
+                    <label>
+                        <input type="radio" value="3" formControlName="selectedOption">
+                        3
+                    </label>
+                    <label>
+                        <input type="radio" value="4" formControlName="selectedOption">
+                        4
+                    </label>
+                    <label>
+                        <input type="radio" value="5" formControlName="selectedOption">
+                        5
+                    </label>
+                </form>
+            </div>
+            </mat-card>
+        </span>
+
+        <div class="strategie-group1">
+
+            <span class="strategie-text5">
+                <mat-card>
+                <span>
+                    Sunt investițiile în inițiativele digitale prioritizate în funcție
+                    de alinierea acestora la strategia digitală? <br><br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group4">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+                </mat-card>
+            </span>
+        </div>
+
+        <span class="strategie-text-button">
+            <button mat-raised-button (click)="onNextPage()">
+                <p>SECȚIUNEA URMĂTOARE</p>
+            </button>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,148 @@
+<div class="operatiuni-container">
+    <div class="operatiuni-operatiuni">
+        <div class="progress-bar">
+            <mat-progress-bar mode="buffer" value="40"></mat-progress-bar>
+        </div>
+        <span class="operatiuni-text1"><span>OPERAȚIUNI</span></span>
+      <span class="operatiuni-text2">
+            <mat-card>
+                <span>
+                    Sunt automatizate sarcinile, eficientizate procesele și integrate
+                    sistemele pentru a îmbunătăți eficiența operațională și eficacitatea
+                    companiei? <br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group1">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+            </mat-card>
+        </span>
+
+      <span class="operatiuni-text3">
+            <mat-card>
+                <span>
+                    Pot fi optimizate operațiunile prin analiza datelor? <br><br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group2">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+            </mat-card>
+        </span>
+
+      <span class="operatiuni-text4">
+            <mat-card>
+                <span>
+                    Are personalul companiei aptitudinile și instrumentele digitale care să
+                    le permită să îmbunătățească operațiunile? <br><br>
+                </span>
+                <div class="radio-button">
+                    <form [formGroup]="group3">
+                        <label>
+                            <input type="radio" value="1" formControlName="selectedOption">
+                            1
+                        </label>
+                        <label>
+                            <input type="radio" value="2" formControlName="selectedOption">
+                            2
+                        </label>
+                        <label>
+                            <input type="radio" value="3" formControlName="selectedOption">
+                            3
+                        </label>
+                        <label>
+                            <input type="radio" value="4" formControlName="selectedOption">
+                            4
+                        </label>
+                        <label>
+                            <input type="radio" value="5" formControlName="selectedOption">
+                            5
+                        </label>
+                    </form>
+                </div>
+            </mat-card>
+        </span>
+
+        <div class="operatiuni-group1">
+
+            <span class="operatiuni-text5">
+                <mat-card>
+                    <span>
+                        Evaluați și optimizați procesele în mod constant pentru a descoperi
+                        noi oportunități și pentru a aduce îmbunătățiri? <br><br>
+                    </span>
+                    <div class="radio-button">
+                        <form [formGroup]="group4">
+                            <label>
+                                <input type="radio" value="1" formControlName="selectedOption">
+                                1
+                            </label>
+                            <label>
+                                <input type="radio" value="2" formControlName="selectedOption">
+                                2
+                            </label>
+                            <label>
+                                <input type="radio" value="3" formControlName="selectedOption">
+                                3
+                            </label>
+                            <label>
+                                <input type="radio" value="4" formControlName="selectedOption">
+                                4
+                            </label>
+                            <label>
+                                <input type="radio" value="5" formControlName="selectedOption">
+                                5
+                            </label>
+                        </form>
+                    </div>
+                </mat-card>
+            </span>
+        </div>
+
+        <span class="operatiuni-text-button">
+            <button mat-raised-button (click)="onNextPage()">
+                <p>SECȚIUNEA URMĂTOARE</p>
+            </button>
+        </span>
+    </div>
+</div>

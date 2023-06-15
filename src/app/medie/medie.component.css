@@ -1,0 +1,74 @@
+#chart {
+  padding: 0;
+  max-width: 800px;
+  margin: 35px auto;
+}
+
+.apexcharts-legend text {
+  font-weight: 900;
+}
+:host {
+  display: contents;
+}
+.medie-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.medie-medie {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 850px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(31, 72, 126, 1);
+}
+.medie-text1 {
+  top: 60px;
+  left: 120px;
+  color: rgba(169, 201, 240, 1);
+  width: 800px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chart-medie{
+  position: relative;
+  top: 300px;
+  width: 800px;
+  height: 350px;
+  left: 300px;
+}
+.medie-text2 {
+  top: 180px;
+  left: 120px;
+  color: rgba(0, 0, 0, 1);
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mat-focus-indicator {
+  background-color: rgba(169, 201, 240, 1);
+}
